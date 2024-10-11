@@ -1,5 +1,9 @@
 # Illumio Take Home Assignment
 
+### Description 
+
+Write a program that can parse a file containing flow log data and maps each row to a tag based on a lookup table. The lookup table is defined as a csv file, and it has 3 columns, dstport,protocol,tag.   The dstport and protocol combination decide what tag can be applied.   
+
 ### Requirment Details:
 1. Input file as well as the file containing tag mappings are plain text (ascii) files  
 2. The flow log file size can be up to 10 MB 
@@ -27,6 +31,17 @@ Ensure you have the following installed:
 3. Run Program using 'parserflowlog.py'
 4. Output file 'output.txt'
 5. Readme file in README.md
+
+Run the Script:
+**python parserflowlog.py**
+
+File Descriptions:
+
+The Python script file  parserflowlog.py to gereate the output. 
+Sample flow log data is in flowlogs.txt: 
+Lookup table dstport,protocol,tag  data is in lookuptable.csv
+Output file output.txt that contains dstport Protocal combination Counts and Tag Counts.
+
 
 ### Testing:
 
