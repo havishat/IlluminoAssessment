@@ -16,7 +16,7 @@ Write a program that can parse a file containing flow log data and maps each row
 2. Count of matches for each port/protocol combination 
 
 ### Prerequisites:
-Ensure you have the following installed:
+ #### Ensure you have the following installed:
 1. Git
 2. Python 3 version
 
@@ -32,10 +32,10 @@ Ensure you have the following installed:
 4. Output file 'output.txt'
 5. Readme file in README.md
 
-Run the Script:
+### Run the Script:
 **python parserflowlog.py**
 
-File Descriptions:
+ #### File Descriptions:
 
 The Python script file  parserflowlog.py to gereate the output. 
 Sample flow log data is in flowlogs.txt: 
@@ -45,7 +45,7 @@ Output file output.txt that contains dstport Protocal combination Counts and Tag
 
 ### Testing:
 
-Tested the Code with below sample flow logs.
+ ####  Tested the Code with below sample flow logs.
 
 2 123456789012 eni-0a1b2c3d 10.0.1.201 198.51.100.2 443 49153 6 25 20000 1620140761 1620140821 ACCEPT OK 
 
@@ -76,14 +76,14 @@ Tested the Code with below sample flow logs.
  2 123456789012 eni-4h5i6j7k 172.16.0.2 192.0.2.146 49154 143 6 9 4500 1620140661 1620140721 ACCEPT OK 
 
  ### Output file contains Tag counts and dstport Protocal combination Counts
- ##### Tag Counts: 
+ #### Tag Counts: 
 Tag, Count
 Untagged,8
 sv_P2,1
 sv_P1,2
 email,3
 
-##### dstport Protocal combination Counts: 
+#### dstport Protocal combination Counts: 
 dstport, Protocal, Count
 49153,tcp,1
 49154,tcp,1
